@@ -1,0 +1,172 @@
+:root {
+  --accent-color: #757575;
+  --title-text-color: #212121;
+  --white-color: #ffffff;
+  --bg-white-color: #f5f4fa;
+  --blue-color: #2196f3;
+}
+
+body {
+  color: var(--accent-color);
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header------------------------------------------ */
+.logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+}
+
+.logo-web {
+  color: var(--blue-color);
+}
+
+.header-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.current {
+  color: var(--blue-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--blue-color);
+}
+
+.auth-nav {
+  color: currentColor;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav:hover,
+.auth-nav:focus {
+  color: var(--blue-color);
+}
+
+/* service------------------------------------------ */
+.service-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.service-button {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border: none;
+}
+
+/* benefits------------------------------------------ */
+.benefits-subject {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* activity------------------------------------------ */
+.activity-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* team------------------------------------------ */
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-professional {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* footer------------------------------------------ */
+.footer-link {
+  color: currentColor;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* portfolio------------------------------------------ */
+.portfolio-button {
+  color: var(--title-text-color);
+  background-color: var(--bg-white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border: none;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
